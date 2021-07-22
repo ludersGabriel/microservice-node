@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Home () {
   return (
     <div>
       <Head>
@@ -8,10 +8,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>This is a template Repo</div>        
+        <h1>This is a template Repo</h1>
       </main>
 
-      
     </div>
   )
 }
